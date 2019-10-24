@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 import sys
-import urllib
+import urllib.request
 from collections import namedtuple
 from bs4 import BeautifulSoup
 
