@@ -13,8 +13,8 @@ I made this for two reasons:
 ---
 ### What's OLMod?
 
-OLMod is a mod for the game Overload. Overload is a spiritual successor to the Descent series of the 90s. OLMod itself adds some
-conspicuously missing multiplayer features to the base game, and is an open source project maintained at https://github.com/arbruijn/olmod
+OLMod is a mod for the game Overload, a spiritual successor to the Descent series of 6DOF shooters of the 90s. OLMod itself adds 
+some conspicuously missing multiplayer features to the base game, and is an open source project maintained at https://github.com/arbruijn/olmod
 
 ---
 ## Usage
@@ -45,9 +45,13 @@ Notes: Europe, Germany, Use 'vex-server.de' as Password, Intel Xeon E5-2630, 8GB
 
 ## Setup
 
-The script was made with `pipenv` in order to install the BeautifulSoup library. Making this into a proper package is on the to-do
-list, but in the meantime, do either:
+You almost certainly must have Python 3.7 or newer installed. 
 
-* Install BeautifulSoup with your distro's package manager
-* Install beautifulsoup4 with `pip`
+The script was made with `pipenv` in order to install the BeautifulSoup library. Making this into a proper package is on the 
+to-do list, but in the meantime, do either:
+
+* Install BeautifulSoup with your distro's package manager,
+* install beautifulsoup4 with `pip`,
 * or install Pipenv, clone this repo, and run `pipenv install` inside the repo's directory. Highly recommend this option--pipenv is awesome.
+
+It's worth mentioning that, while Python 3 is cross-platform, at this early stage I've only tested on Linux. It "probably" works just fine on Windows or Mac. ... probably
